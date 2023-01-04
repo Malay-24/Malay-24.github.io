@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/https//malay-24.github.io/static/css/main.ebf3e05f.css",
-    "main.js": "/https//malay-24.github.io/static/js/main.b1e0bbbe.js",
+    "main.js": "/https//malay-24.github.io/static/js/main.a59adb18.js",
     "static/js/787.1d1c6327.chunk.js": "/https//malay-24.github.io/static/js/787.1d1c6327.chunk.js",
-    "static/media/logo.svg": "/https//malay-24.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/https//malay-24.github.io/index.html",
     "main.ebf3e05f.css.map": "/https//malay-24.github.io/static/css/main.ebf3e05f.css.map",
-    "main.b1e0bbbe.js.map": "/https//malay-24.github.io/static/js/main.b1e0bbbe.js.map",
+    "main.a59adb18.js.map": "/https//malay-24.github.io/static/js/main.a59adb18.js.map",
     "787.1d1c6327.chunk.js.map": "/https//malay-24.github.io/static/js/787.1d1c6327.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebf3e05f.css",
-    "static/js/main.b1e0bbbe.js"
+    "static/js/main.a59adb18.js"
   ]
 }
