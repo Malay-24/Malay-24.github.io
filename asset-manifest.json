@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//malay-24.github.io/static/css/main.ebf3e05f.css",
-    "main.js": "/https//malay-24.github.io/static/js/main.a59adb18.js",
-    "static/js/787.1d1c6327.chunk.js": "/https//malay-24.github.io/static/js/787.1d1c6327.chunk.js",
-    "index.html": "/https//malay-24.github.io/index.html",
-    "main.ebf3e05f.css.map": "/https//malay-24.github.io/static/css/main.ebf3e05f.css.map",
-    "main.a59adb18.js.map": "/https//malay-24.github.io/static/js/main.a59adb18.js.map",
-    "787.1d1c6327.chunk.js.map": "/https//malay-24.github.io/static/js/787.1d1c6327.chunk.js.map"
+    "main.css": "/static/css/main.ebf3e05f.css",
+    "main.js": "/static/js/main.a5aaec76.js",
+    "static/js/787.1d1c6327.chunk.js": "/static/js/787.1d1c6327.chunk.js",
+    "index.html": "/index.html",
+    "main.ebf3e05f.css.map": "/static/css/main.ebf3e05f.css.map",
+    "main.a5aaec76.js.map": "/static/js/main.a5aaec76.js.map",
+    "787.1d1c6327.chunk.js.map": "/static/js/787.1d1c6327.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ebf3e05f.css",
-    "static/js/main.a59adb18.js"
+    "static/js/main.a5aaec76.js"
   ]
 }
