@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App,
+.button,
+.navbar
+ {
+  /* background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%); */
+  color: white;
+  /* background: rgb(10,10,10);
+    background: radial-gradient(rgba(20,31,32,0.9923319669664741) 14%, rgba(31,31,51,1) 69%); */
+
+  animation: changeBg 15s infinite alternate linear;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes changeBg {
+  0% {
+    background:#3bada8;
+  }
+  /* 25% {
+    background: rgba(31, 31, 51, 1);
+  }
+  50% {
+    background: rgba(31, 31, 51, 1);
+  }
+  75% {
+    background: rgba(31, 31, 51, 1);
+  } */
+  100% {
+    background:#3bada8;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar {
+  background-color: rgba(31, 31, 51, 1);
+  background: radial-gradient(rgba(31, 31, 51, 1) 89%);
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  color: white;
+  width: 100vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.active>button {
+ 
+  animation: changeBgd 15s infinite alternate linear;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes changeBgd {
+  0% {
+    background:#3bada8;
+  }
+  /* 25% {
+    background: rgba(31, 31, 51, 1);
+  }
+  50% {
+    background: rgba(31, 31, 51, 1) ;
+  }
+  75% {
+    background: rgba(31, 31, 51, 1) ;
+  } */
+  100% {
+    background:#3bada8;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  width: 70px;
+  height:60px;
+  font-size: 19px;
+  /* background: rgb(243, 14, 79); */
+  transition: width 2s, height 2s;
+  border-radius: 5px;
+  /* color: rgb(243, 14, 79); */
+  font-weight: 500;
 }
+.btn:hover {
+  width: 85px;
+  color: white;
+  background: #f565a3;
+  transition: width 1s;
+  transition: 1s;
+}
+
+.frame {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 2px;
+  overflow: hidden;
+  color: #333;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
