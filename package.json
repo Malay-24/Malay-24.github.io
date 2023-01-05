@@ -2,7 +2,7 @@
   "homepage": "https//malay-24.github.io",
   "name": "malay-portfolio",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.15",
     "@chakra-ui/react": "^2.4.6",
